@@ -3,6 +3,7 @@ import { users } from '../../db';
 
 const User = () => {
   const { userId } = useParams();
+  console.log('userId :', userId);
 
   return (
     <h1>
